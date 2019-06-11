@@ -1,0 +1,106 @@
+/* Beginning of typing annimation */
+@keyframes flash {
+    0%   { opacity: 0; }
+    49%  { opacity: 0; }
+    50%  { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+p {
+  display: inline;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+span {
+  display: none;
+  min-width: .5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Beginning of home */
+#home{
+    height: 100vh;
+    width: 100%;
+    background: gainsboro;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#backToTop{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background: springgreen;
+    box-shadow: 0 1px 7px hsla(0, 0%, 0%, 2);
+    margin-left: auto;
+    margin-right: 2vw;
+}
+.paperbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 50vw;
+    text-shadow: -1px -1px gray;
+    border: 3px dashed black;
+    box-shadow: 0 1px 7px hsla(0, 0%, 0%, 2);
+  }
+.offset{
+    width:100%;
+}
+/* Beginning of portfolio */
+#portfolio{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: gainsboro;
+}
+#Page{
+    height: 65vh;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+/* Beginning of projects */
+#project{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: gainsboro;
+}
+#project2{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: gainsboro;
+}
+/* Beginning of games */
+#games{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: gainsboro;
+}
+#games2{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: gainsboro;
+}
+/* Beginning of github */
+#github{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: gainsboro;
+}

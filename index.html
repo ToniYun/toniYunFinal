@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="Antonio.js"></script>
+</head>
+
+<body onload="offSet(); offSet2();">
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top" style="background: springgreen">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a id="Home" class="nav-link" href="#offset" onclick="navbarFunction(this)">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Portfolio" class="nav-link" href="#My Portfolio"
+                            onclick="navbarFunction(this)">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a id="Project1" class="dropdown-item" href="#Project 1"
+                                onclick="navbarFunction(this)">Project 1</a>
+                            <a id="Project2" class="dropdown-item" href="#Project 2"
+                                onclick="navbarFunction(this)">Project 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Games</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a id="Games" class="dropdown-item" href="#The First Game"
+                                onclick="navbarFunction(this)">Game 1</a>
+                            <a id="Games2" class="dropdown-item" href="#The Seond Game"
+                                onclick="navbarFunction(this)">Game
+                                2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Github" class="nav-link" href="#My Github Page" onclick="navbarFunction(this)">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Resume" class="nav-link" href="AntonioResume.pdf - Shortcut.lnk">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="home" style="background-image: url(jsscreen.png);
+        background-repeat: no-repeat;
+        background-position: center;">
+            <b style="margin-bottom: 10%">
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <div class="offset2"></div>
+                <h1 style="text-align: center; color: #fff;" data-js="typing">
+                    I am Antonio Yun,</h1>
+                <h1 style="text-align: center; color: #fff;" data-js="typing">a Student at
+                    the</h1>
+                <h1 style="text-align: center; color: #fff;" data-js="typing"> University</h1>
+                <h1 style="text-align: center; color: #fff;" data-js="typing">of Washington</h1>
+            </b>
+            <div href="#Go Home" onclick="navbarFunction(this)" style="display: flex; flex-direction: row-reverse;position:fixed;bottom: 5%;
+                right: 3%;">
+                <button id="backToTop">
+                    <h2 style="font-size: 150%">
+                        UP</h2>
+                </button>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="offset"></div>
+            <div class="paperbox">
+                <h1 style="text-align: center; padding: 10px;">
+                    <font color="springgreen">Antonio's Portfolio</font>
+                </h1>
+            </div>
+            <div id="Page" style="text-align: center">
+                <p style="color: black;">
+                    University of Washington, Bothell<br>
+                    Currently attending the University of Washington, Bothell
+                    to get into the Computer Science and Software
+                    Engineering department.<br> CS 107 Introduction to Programming Through Animated Storytelling -
+                    Currently
+                    learning about the
+                    fundamentals of computer science and learning how to animate characters using code. <br>B IMD 233
+                    Fundamentals of Web Media Technology - Learning about the fundamentals of Web development. <br>CS
+                    143
+                    Computer Programming II - Learning about Object Oriented Programming through Java.<br><br>
+                    Highschool Diploma: Meadowdale Highschool<br>
+                    CS 115 Intro to Computer Science - Learned about visual basics and the basics of coding.<br> CS 131
+                    Computer Science I C++ - Leaned the basics to C++. <br>CS 142 Computer Programming I - Learned about
+                    the
+                    basics of computer science through Java. Important
+                    topics covered in this course was loop, if statements, and methods
+                </p>
+            </div>
+
+        </div>
+        <div id="project">
+            <div class="offset"></div>
+            <div class="paperbox">
+                <h1 style="text-align: center; padding: 10px;">
+                    <font color="springgreen">Photos Taken By Antonio</font>
+                </h1>
+            </div>
+            <div id="Page" style="text-align: center">
+                <img src="photoclass/IMG_0179.JPG" alt="Picture 1" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0180.JPG" alt="Picture 2" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0181.JPG" alt="Picture 3" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0182.JPG" alt="Picture 4" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0183.JPG" alt="Picture 5" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0185.JPG" alt="Picture 6" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0186.JPG" alt="Picture 7" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0187.JPG" alt="Picture 8" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0188.JPG" alt="Picture 9" style="height:25%;width:25%">
+                <img src="photoclass/IMG_0189.JPG" alt="Picture 10" style="height:25%;width:25%">
+                <a href="https://www.flickr.com/photos/155725685@N06">Link To all of My Pictures</a>
+            </div>
+        </div>
+        <div id="project2">
+            <div class="offset"></div>
+            <div class="paperbox">
+                <h1 style="text-align: center; padding: 10px;">
+                    <font color="springgreen">Average Temperature Project</font>
+                </h1>
+            </div>
+            <div id="Page" style="text-align: center">
+                <pre>
+This page is going to have a list of all of the projects that I have created
+for other classes and for fun.
+                    </pre>
+                <p style="color: black">Download all files</p><br>
+                <a href="TemperatureProject" download>Download Project</a><br>
+                <img src="Temperature.JPG" alt="Temperature" style="height:50%;width:50%">
+            </div>
+
+        </div>
+        <div id="games">
+            <div class="offset"></div>
+            <div class="paperbox">
+                <h1 style="text-align: center; padding: 10px;">
+                    <font color="springgreen">Antonio's First Game</font>
+                </h1>
+            </div>
+            <div id="Page" style="text-align: center">
+                <pre>
+Going to contain games the I can create using javascript and css and html/ this
+part is going to contain website games in particular.
+                    </pre>
+                <p style="color: black">Download all files to Play</p><br>
+                <a href="pacman/src/main/java/pac" download>Download Project</a><br>
+                <img src="pac.JPG" alt="Pacman 1" style="height:50%;width:50%">
+            </div>
+        </div>
+        <div id="games2">
+            <div class="offset"></div>
+            <div class="paperbox">
+                <h1 style="text-align: center; padding: 10px;">
+                    <font color="springgreen">Antonio's Second Game</font>
+                </h1>
+            </div>
+            <div id="Page" style="text-align: center">
+                <pre>
+Going to contain games the I can create using javascript and css and html/ this
+part is going to contain website games in particular.
+                    </pre>
+                <p style="color: black">Download to Play</p><br>
+                <a href="pacman.a2w" download>Download Project</a><br>
+                <img src="pacman game.JPG" alt="Pacman 1" style="height:50%;width:50%">
+            </div>
+        </div>
+        <div id="github">
+            <div class="offset"></div>
+            <div class="paperbox">
+                <h1 style="text-align: center; padding: 10px;">
+                    <font color="springgreen">Antonio's Github Projects</font>
+                </h1>
+            </div>
+            <div id="Page" style="text-align: center">
+                <pre>
+This part is going to have a link to my github as well as all of the other
+github projects that we have worked on this quarter
+                    </pre>
+                <a href="https://github.com/ToniYun">Link to My Github Page</a>
+                <br>
+                <p style="color: black;">My Github Websites</p>
+                <ul style="list-style-type: none;">
+                    <li><a href="https://ToniYun.github.io">Link to My Team Website HTML project</a>
+                    </li>
+                    <li><a href="https://terenceman.github.io">Link to My Team Website CSS and Bootstrap project</a>
+                    </li>
+                    <li><a href="https://jcholol.github.io">Link to My Team Website Javascript project</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="AntonioResume.pdf - Shortcut.lnk">Link to My Resume</a>
+        </div>
+    </div>
+</body>
+
+</html>
